@@ -1,1 +1,2 @@
-# HackDavis2020
+# DC Dash 
+Our project's main goal was to detect how many people were in the UC Davis Dining Commons. We used Haar Cascades to detect humans that walked into the frame, meaning they were going to the DC to have food, and vice versa. Optical Flow was used to map a RGB velocity vector to find direction of movement. MongoDB was used to compile the data for the potential webapp and android app. All the code was written using VS Code in Python 3.7.3 and we alternated between the default MacBook Pro webcam and a event-provided Logitech Webcam
