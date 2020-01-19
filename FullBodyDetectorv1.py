@@ -24,17 +24,8 @@ while True:
 
     # Display the resulting frame
     cv2.imshow('Body Detection', frame)
-
-    # if k%256 == 27: #ESC Pressed
-    #     break
-    # elif k%256 == 32:
-    #     # SPACE pressed
-    #     img_name = "facedetect_webcam_{}.png".format(img_counter)
-    #     cv2.imwrite(img_name, frame)
-    #     print("{} written!".format(img_name))
-    #     img_counter += 1
-        
-
+    
+   
 #When everything is done, release the capture
 video_capture.release()
 
